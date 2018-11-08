@@ -1,6 +1,6 @@
 {
   "name": "ng6-breadcrumbs",
-  "version": "0.1.281",
+  "version": "1.0.7",
   "description": "Breadcrumb generator for Angular 5",
   "main": "./ng6-breadcrumbs.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Centroida/ng6-breadcrumb"
+    "url": "https://github.com/ekos-27/ng2-breadcrumbs"
   },
   "keywords": [
     "Angular 6",
@@ -20,7 +20,7 @@
   "typings": "./ng6-breadcrumbs.d.ts",
   "author": "Centroida",
   "license": "MIT",
-  "homepage": "https://github.com/Centroida/ng6-breadcrumb",
+  "homepage": "https://github.com/ekos-27/ng2-breadcrumbs",
   "devDependencies": {
     "@angular/animations": "~6.0.1",
     "@angular/common": "~6.0.1",

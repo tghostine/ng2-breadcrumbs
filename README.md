@@ -1,7 +1,7 @@
 # ng6-breadcrumbs
 [![npm version](https://badge.fury.io/js/ng6-breadcrumbs.svg)](https://badge.fury.io/js/ng6-breadcrumbs)
 
-ng2-breadrumbs is a module for [Angular 5](https://angular.io/) that generates a breadcrumb for any page of your application. It is based on the built-in [Angular 5 router](https://angular.io/docs/ts/latest/guide/router.html).
+ng2-breadrumbs is a module for [Angular](https://angular.io/) that generates a breadcrumb for any page of your application. It is based on the built-in [Angular router](https://angular.io/docs/ts/latest/guide/router.html).
 
 ## [Demo](https://centroida.github.io/ng4-breadcrumbs/)
 
