@@ -1,5 +1,5 @@
-# ng2-breadcrumbs
-[![npm version](https://badge.fury.io/js/ng2-breadcrumbs.svg)](https://badge.fury.io/js/ng2-breadcrumbs)
+# ng6-breadcrumbs
+[![npm version](https://badge.fury.io/js/ng6-breadcrumbs.svg)](https://badge.fury.io/js/ng6-breadcrumbs)
 
 ng2-breadrumbs is a module for [Angular 5](https://angular.io/) that generates a breadcrumb for any page of your application. It is based on the built-in [Angular 5 router](https://angular.io/docs/ts/latest/guide/router.html).
 
@@ -9,19 +9,19 @@ ng2-breadrumbs is a module for [Angular 5](https://angular.io/) that generates a
 
 ## Getting started
 
-1.Install `ng2-breadcrumbs` via npm:
+1.Install `ng6-breadcrumbs` via npm:
 
 ```bash
-npm install --save ng2-breadcrumbs
+npm install --save ng6-breadcrumbs
 ```
 
 2.Import the `BreadcrumbsModule` within your app:
 
 ```js
-import {BreadcrumbsModule} from "ng2-breadcrumbs";
+import {BreadcrumbsModule} from "ng6-breadcrumbs";
 
 @NgModule({
-  imports: [ 
+  imports: [
     BreadcrumbsModule,
   ],
 })
@@ -133,5 +133,3 @@ The `BreadcrumbsService`'s `store' and `storePrefixed` methods breadcrumb object
 
 # TODO
  1. Add more use cases (using routerLinks, for example).
-
- 
