@@ -13,7 +13,7 @@ import {BreadcrumbsService} from "./breadcrumbs.service";
                 <ol [ngClass]="{ 'breadcrumb': allowBootstrap}" class="{{addClass ? '' + addClass : ''}}">
                     <li *ngFor="let breadcrumb of breadcrumbs; let last = last"
                         [ngClass]="{ 'breadcrumb-item': allowBootstrap, 'list': true, 'active': last }">
-                        <a *ngIf="!last" [routerLink]="hasParams(breadcrumb)">
+                        <a *ngIf="!last" [queryParams]="getQueryParams(breadcrumb)" [routerLink]="hasParams(breadcrumb)">
                             {{breadcrumb.label}}
                         </a>
                         <span *ngIf="last">{{ breadcrumb.label }}</span>
@@ -59,6 +59,10 @@ export class BreadcrumbComponent implements OnInit {
 
   public hasParams(breadcrumb: IBreadcrumb) {
     return Object.keys(breadcrumb.params).length ? [breadcrumb.url, breadcrumb.params] : [breadcrumb.url];
+  }
+
+  public hasQueryParams(breadcrumb: IBreadcrumb){
+    return Object.keys(breadcrumb.queryParams).length ? [breadcrumb.queryParams] : '';
   }
 
 
